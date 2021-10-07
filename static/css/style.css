@@ -183,6 +183,7 @@ header .menu-toggle {
 
 .post-slider {
   position: relative;
+  text-align:center;
 }
 
 .post-slider .slider-title {
@@ -362,7 +363,7 @@ header .menu-toggle {
 
 .content .sidebar .section.topics ul li a {
   display: block;
-  padding: 15px 0px 15px 0px;
+  padding: 10px 0px 10px 0px;
   border-bottom: 1px solid #e0e0e0;
   transition: all 0.3s;
 }
@@ -641,4 +642,18 @@ header .menu-toggle {
   .post-slider .prev {
     left: 10px;
   }
+}
+button{ 
+
+ background-color:#0E94A0;
+ border-radius:28px;
+ border:1px solid #0E94A0;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Arial;
+ font-size:17px;
+ padding:16px 31px;
+ text-decoration:none;
+ text-shadow:0px 1px 0px #0E94A0;
 }

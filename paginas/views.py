@@ -6,3 +6,6 @@ def home(request):
 
 def paginas(request):
     return render(request, 'paginas/paginas.html')
+
+def login(request):
+    return render(request, 'paginas/login.html')
